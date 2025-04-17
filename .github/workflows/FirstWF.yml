@@ -30,4 +30,4 @@ jobs:
       with:
        registry: registry-1.docker.io
        username: ${{secrets.DOCKERHUBUSERNAME}}
-       password: ${{secrets.DOCKERHUBPASSWORD}}
+       password: ${{vars.DOCKERHUBPASSWORD}}
