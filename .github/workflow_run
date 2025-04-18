@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
+    needs: worklow_call
+    steps: 
       - name: Checkout code
         uses: actions/checkout@v2
 
